@@ -3,6 +3,16 @@ This repository has been cloned from the Original Dialogflow Fulfillment Node.js
 
 The original license is in the file [LICENSE](./LICENSE). This repository holds the same license of Apache 2.0.
 
+This package was created to include error fixes that are in the original repository and not merged in it.
+
+You can install this module with the following command:
+```
+npm install --save dialogflow-fulfillment-improved
+```
+# Contributing
+To contribute or include your fixes in this repository, in your merge request please include complete details on how to simulate the error and the fix. 
+
+
 # Dialogflow Fulfillment Library
 The [Dialogflow Fulfillment Library](https://dialogflow.com/docs/fulfillment) allows you to connect natural language understanding and processing to your own systems, APIs, and databases. Using Fulfillment, you can surface commands and information from your services to your users through a natural conversational interface.
 
