@@ -250,6 +250,7 @@ class V2Agent {
       this.agent.response_.status(ERROR_HTTP_STATUS_CODE).send(`No responses defined for platform: ${requestSource}`);
     } else {
       responseJson.outputContexts = this.agent.context.getV2OutputContextsArray();
+      // Fixed the below code to match with Dialogflow's Documentation
       if (this.agent.endConversation_) {
         responseJson.end_interaction = this.agent.endConversation_;
       }
@@ -441,6 +442,7 @@ class V2Agent {
    * @private
    */
   convertPayloadJson_(messageJson, platform) {
+    //Added this code to add Platform Unspecified to cope with errors
     if (!platform) {
       platform = (messageJson.payload.platform) ? messageJson.payload.platform : 'PLATFORM_UNSPECIFIED';
     }

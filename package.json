@@ -4,7 +4,7 @@
   "main": "src/dialogflow-fulfillment.js",
   "version": "0.6.2",
   "license": "Apache-2.0",
-  "author": "Google Inc.",
+  "author": "Google Inc., Modified by Aditya Patel",
   "directories": {
     "test": "test"
   },
