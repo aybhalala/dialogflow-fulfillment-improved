@@ -18,7 +18,7 @@ The [Dialogflow Fulfillment Library](https://dialogflow.com/docs/fulfillment) al
 
 Dialogflow Fulfillment makes creating fulfillment for Dialogflow v1 and v2 agents for 8 chat and voice platforms on Node.js easy and simple.
 
-![fulfillment library works with 8 platforms](https://raw.githubusercontent.com/dialogflow/dialogflow-fulfillment-nodejs/master/dialogflow-fulfillment-graphic.png "Dialogflow's fulfillment library works with 8 platforms")
+![fulfillment library works with 8 platforms](https://raw.githubusercontent.com/aybhalala/dialogflow-fulfillment-improved/master/dialogflow-fulfillment-graphic.png "Dialogflow's fulfillment library works with 8 platforms")
 
 ## Supported features
 + Text
@@ -41,7 +41,7 @@ If only building Dialogflow Fulfillment for the [Google Assistant](https://dialo
 ## Setup Instructions
 ```javascript
 // Import the appropriate class
-const { WebhookClient } = require('dialogflow-fulfillment');
+const { WebhookClient } = require('dialogflow-fulfillment-improved');
 
  //Create an instance
 const agent = new WebhookClient({request: request, response: response});
@@ -58,7 +58,7 @@ const agent = new WebhookClient({request: request, response: response});
 
 ## References & Issues
 + Questions? Try [StackOverflow](https://stackoverflow.com/questions/tagged/dialogflow) or [Dialogflow Developer Community](https://plus.google.com/communities/103318168784860581977).
-+ For bugs, please report an issue on [Github](https://github.com/dialogflow/dialogflow-fulfillment-nodejs/issues).
++ For bugs, please report an issue on [Github](https://github.com/aybhalala/dialogflow-fulfillment--improved/issues).
 + Dialogflow [Documentation](https://docs.dialogflow.com).
 + [Dialogflow WebhookClient class reference doc](https://dialogflow.com/docs/reference/fulfillment-library/webhook-client).
 + [Dialogflow rich response classes reference doc](https://dialogflow.com/docs/reference/fulfillment-library/rich-responses).
